@@ -1,34 +1,32 @@
-# Kishore M — Portfolio (React + Express + MySQL + Prisma)
+# Kishore M — Portfolio (React + Vite)
 
 ## Structure
 - `client/` — React (Vite) frontend
-- `server/` — Express API with Prisma ORM (MySQL)
 
 ## Setup
 
-### 1. Database (MySQL)
-Create a database, e.g. `portfolio`.
-
-### 2. Server
-```
-cd server
-npm install
-cp .env.example .env   # then edit DATABASE_URL with your MySQL credentials
-npm run prisma:migrate
-npm run prisma:seed
-npm run dev
-```
-Runs on http://localhost:5000
-
-### 3. Client
+### Client
 ```
 cd client
 npm install
 npm run dev
 ```
-Runs on http://localhost:5173 (proxies `/api` to the server)
+Runs on http://localhost:5173
+
+### Build
+```
+cd client
+npm run build
+```
+Outputs to `client/dist/`
+
+### Environment variables
+The contact form uses [Web3Forms](https://web3forms.com). Create `client/.env.local` with:
+```
+VITE_WEB3FORMS_ACCESS_KEY=your_access_key_here
+```
 
 ## Notes
-- Projects are stored in MySQL via Prisma (`server/prisma/schema.prisma`) and seeded with 4 placeholder projects — edit `server/prisma/seed.js` and re-run `npm run prisma:seed` once you have real project data.
+- The contact form (`client/src/components/Contact.jsx`) submits directly to the Web3Forms API — no backend server required.
 - The Hero section's layout (circle background, image placement, text position) is preserved exactly as in the original design — only extracted into `client/src/components/Hero.jsx`.
 - Accent color was extended into a purple → cyan gradient (`--gradient-cool` in `client/src/index.css`) for a cooler vibe across About/Journey/Skills/Projects, while the Hero itself keeps its original solid purple.
