@@ -7,7 +7,7 @@ const PROJECTS = [
     image: "/assests/chat-app-thumb.png",
     tags: ["React.js", "Socket.IO", "JWT", "MySQL"],
     liveUrl: "https://bruh-17u.vercel.app/",
-    repoUrl: "",
+    repoUrl: "https://github.com/kishore-c0de/real-time-chat-app.git",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const PROJECTS = [
     image: "/assests/queue-app-thumb.png",
     tags: ["React.js", "Express.js", "Socket.IO", "Prisma", "MySQL", "Groq API"],
     liveUrl: "https://queue-system-self.vercel.app/",
-    repoUrl: "",
+    repoUrl: "https://github.com/kishore-c0de/queue-management-system.git",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const PROJECTS = [
     image: "/assests/banking-app-thumb.png",
     tags: ["React 18", "Express.js", "JWT", "MySQL"],
     liveUrl: "https://banking-system-7pop.onrender.com/login",
-    repoUrl: "",
+    repoUrl: "https://github.com/kishore-c0de/Banking-System.git",
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const PROJECTS = [
     image: "/assests/portfolio-thumb.png",
     tags: ["React.js", "Vite", "Web3Forms"],
     liveUrl: "https://kishore-portfolio-henna-three.vercel.app/",
-    repoUrl: "",
+    repoUrl: "https://github.com/kishore-c0de/kishore-portfolio.git",
   },
 ];
 

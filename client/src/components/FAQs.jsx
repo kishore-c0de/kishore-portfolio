@@ -39,7 +39,7 @@ export default function FAQs() {
           </h2>
           <div className="faqs-title-line"></div>
           <p className="faqs-subtitle">
-            Placeholder subtitle — a quick set of answers to things people usually ask.
+            Quick answers to what people usually ask me.
           </p>
         </div>
 
