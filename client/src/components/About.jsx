@@ -88,7 +88,7 @@ export default function About() {
               </div>
               <div className="identity-item">
                 <div className="identity-icon">🐞</div>
-                <span>Debugger by necessity. 😭</span>
+                <span>Debugger by necessity. </span>
               </div>
             </div>
 
@@ -100,7 +100,7 @@ export default function About() {
                 <strong>React</strong>, <strong>Node.js</strong>, <strong>Java</strong>,{" "}
                 <strong>Spring</strong>, and <strong>MySQL</strong>. Lately, I've also been
                 exploring <strong>AI, RAG, and LangChain</strong> — because apparently,
-                learning one tech stack wasn't enough. 💀
+                learning one tech stack wasn't enough. 
               </p>
               <p>
                 I like turning ideas into working products, figuring out why things break, and
